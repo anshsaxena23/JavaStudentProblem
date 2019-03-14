@@ -1,22 +1,6 @@
 # JavaStudentProblem
 Student Problem using priority list in java as an assignment for UpGrad.
-	You’re out of storage space and will soon be unable to send or receive emails until you free up space or purchase additional storage.
-1 of 804
-(no subject)
-Inbox
-x
-
-ANSH SAXENA <ansh.saxena.1999@gmail.com>
-4:09 PM (1 minute ago)
-to me
-
-Hi,
-Thanks for showing an interest in working with us. We are excited to take this candidature ahead.
-As the next step of the process.Please find below the assignment for which you have to provide the solution.
-Revert on the same mail in case of any queries. 
-Please share the solution by 06:00 pm tomorrow
-Thanks once again!
-Looking forward! :)
+e space and will soon be unable to send or receive emails until you free up space or purchase additional storage.
 
 Question- 
 Prog lang: Java
