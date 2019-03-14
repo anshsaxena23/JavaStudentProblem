@@ -63,7 +63,7 @@ public class UpGradAssignment {
 						if(c1.priority<c2.priority) {
 							return -1;}
 					}
-					//return 0;
+					return 0;
 				}
                 else if(c1.cgpa>c2.cgpa) {
                 	return -1;
@@ -76,19 +76,19 @@ public class UpGradAssignment {
 		};
 		// FIXING IT TO MAXIMUM OF 50 STUDENTS
 		PriorityQueue<Students> pQueue = new PriorityQueue<Students>(50,idComparator); 
-		//pQueue.peek().ShowData();
-		System.out.print("Enter the number of Iterations : ");
+		
+		//System.out.print("Enter the number of Iterations : ");
+		// First line of Input
 		choice = Sc.nextInt();
 		do {
 			input=Sc.nextLine(); 
 			ParseAndDo(pQueue,input);			
 			//System.out.println();
-            i++;
-
-	}while(i<=choice);
-			while(!pQueue.isEmpty()) {
-			pQueue.poll().ShowNames();
-			}
+                        i++;
+                   }while(i<=choice);
+		while(!pQueue.isEmpty()) {
+		pQueue.poll().ShowNames();
+		}
 	}
 	    private static void ParseAndDo(PriorityQueue<Students> pQueue, String input) {
 		// TODO Auto-generated method stub
